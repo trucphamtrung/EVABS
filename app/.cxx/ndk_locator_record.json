@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "/Users/abhishekjm/Library/Android/sdk/ndk-bundle",
+  "ndkFolder": "/root/Android/Sdk/ndk/20.1.5948944",
   "messages": [
     {
       "level": "INFO",
@@ -7,7 +7,7 @@
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is /Users/abhishekjm/Library/Android/sdk/ndk-bundle"
+      "message": "ndk.dir in local.properties is not set"
     },
     {
       "level": "INFO",
@@ -15,19 +15,23 @@
     },
     {
       "level": "INFO",
-      "message": "sdkFolder is /Users/abhishekjm/Library/Android/sdk"
+      "message": "sdkFolder is /root/Android/Sdk"
     },
     {
       "level": "INFO",
-      "message": "Considering /Users/abhishekjm/Library/Android/sdk/ndk-bundle by ndk.dir"
+      "message": "Considering /root/Android/Sdk/ndk-bundle in SDK ndk-bundle folder"
     },
     {
       "level": "INFO",
-      "message": "Considering /Users/abhishekjm/Library/Android/sdk/ndk-bundle in SDK ndk-bundle folder"
+      "message": "Considering /root/Android/Sdk/ndk/20.1.5948944 in SDK ndk folder"
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (/Users/abhishekjm/Library/Android/sdk/ndk-bundle) which has version 20.1.5948944"
+      "message": "Rejected /root/Android/Sdk/ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
+    },
+    {
+      "level": "INFO",
+      "message": "No user requested version, choosing /root/Android/Sdk/ndk/20.1.5948944 which is version 20.1.5948944"
     }
   ]
 }
